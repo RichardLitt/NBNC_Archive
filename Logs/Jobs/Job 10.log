@@ -1,0 +1,18 @@
+2019-09-06 17:15:58,967 INFO     Job started for command "detect" with arguments:
+2019-09-06 17:15:58,969 INFO         {
+2019-09-06 17:15:58,969 INFO             "detectors": [
+2019-09-06 17:15:58,970 INFO                 "Old Bird Tseep Detector"
+2019-09-06 17:15:58,970 INFO             ],
+2019-09-06 17:15:58,970 INFO             "stations": [
+2019-09-06 17:15:58,970 INFO                 "1"
+2019-09-06 17:15:58,970 INFO             ],
+2019-09-06 17:15:58,970 INFO             "start_date": "2019-09-05",
+2019-09-06 17:15:58,970 INFO             "end_date": "2019-09-06",
+2019-09-06 17:15:58,970 INFO             "schedule": "",
+2019-09-06 17:15:58,970 INFO             "defer_clip_creation": false
+2019-09-06 17:15:58,970 INFO         }
+2019-09-06 17:15:58,993 INFO     This command will process recordings for 1 station-night.
+2019-09-06 17:15:58,993 INFO     Processing recordings for station-night 1 of 1 - "1 2019-09-05"...
+2019-09-06 17:15:58,997 INFO     Copying input file "1_2019-09-06_00.30.00_Z.wav" channel 0 to "C:\My Recordings/Soundfile.wav"...
+2019-09-06 17:15:59,000 ERROR    File channel copy failed with message: [Errno 2] No such file or directory: 'C:\\My Recordings/Soundfile.wav'
+2019-09-06 17:15:59,013 INFO     Job complete.
