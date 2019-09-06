@@ -1,0 +1,85 @@
+stations:
+
+    - name: "1"
+      description: "North Branch Nature Center"
+      latitude: 44.284535
+      longitude: -72.575007
+      elevation: 177
+      time_zone: US/Eastern
+
+device_models:
+
+    - name: PC Recorder
+      type: Audio Recorder
+      manufacturer: Various
+      model: PC
+      description: Personal computer as an audio recorder.
+      num_inputs: 2
+
+    - name: 21c
+      type: Microphone
+      manufacturer: Old Bird
+      model: 21c
+      description: ""
+      num_outputs: 1
+
+devices:
+
+    - name: PC Recorder 1
+      model: PC Recorder
+      serial_number: 1
+      description: Recorder used at station 1.
+
+    - name: 21c 1
+      model: 21c
+      serial_number: 1
+      description: Microphone used at station 1.
+
+station_devices:
+
+    - station: "1"
+      start_time: 2019-01-01
+      end_time: 2024-12-31
+      devices:
+          - PC Recorder 1
+          - 21c 1
+      connections:
+          - output: 21c 1 Output
+            input: PC Recorder 1 Input 0
+
+detectors:
+
+    - name: Old Bird Tseep Detector
+      description: http://oldbird.org/analysis.htm
+
+    - name: Old Bird Thrush Detector
+      description: http://oldbird.org/analysis.htm
+
+classifiers: []
+
+annotation_constraints:
+
+    - name: Coarse Clip Class
+      description: Coarse clip classes for nocturnal migration monitoring.
+      type: Values
+      values: [ Call, Noise, Tone ]
+
+    - name: Clip Class
+      description: >
+          All clip classes, both coarse and species, for nocturnal migration
+          monitoring.
+      type: Hierarchical Values
+      extends: Coarse Clip Class
+      values:
+          - Call: [
+                AMRE, ATSP, BAWW, BTBW, CAWA, CCSP, CHSP, CMWA, COYE, CSWA,
+                DoubleUp, FISP, FOSP, GCKI, GHSP, GRSP, HESP, HOWA, INBU, LCSP,
+                LOWA, MOWA, NOPA, NWTH, Other, OVEN, PAWA, PRAW, PROW,
+                SNBU_LALO, SAVS, SOSP, SWSP_LISP, Unknown, VESP, WCSP, Weak, WIWA,
+                WTSP, YRWA, Zeep]
+
+annotations:
+
+    - name: Classification
+      type: String
+      constraint: Clip Class

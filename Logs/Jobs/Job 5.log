@@ -1,0 +1,17 @@
+2019-09-06 17:08:41,319 INFO     Job started for command "detect" with arguments:
+2019-09-06 17:08:41,320 INFO         {
+2019-09-06 17:08:41,321 INFO             "detectors": [
+2019-09-06 17:08:41,326 INFO                 "Old Bird Tseep Detector"
+2019-09-06 17:08:41,327 INFO             ],
+2019-09-06 17:08:41,327 INFO             "stations": [
+2019-09-06 17:08:41,327 INFO                 "1"
+2019-09-06 17:08:41,327 INFO             ],
+2019-09-06 17:08:41,327 INFO             "start_date": "2019-09-05",
+2019-09-06 17:08:41,327 INFO             "end_date": "2019-09-06",
+2019-09-06 17:08:41,328 INFO             "schedule": "",
+2019-09-06 17:08:41,328 INFO             "defer_clip_creation": false
+2019-09-06 17:08:41,328 INFO         }
+2019-09-06 17:08:41,373 INFO     This command will process recordings for 1 station-night.
+2019-09-06 17:08:41,374 INFO     Processing recordings for station-night 1 of 1 - "1 2019-09-05"...
+2019-09-06 17:08:41,383 ERROR    File channel copy failed with message: Recording file path "1_2019-09-06_00.30.00_Z.wav" could not be made absolute since it is not in the recording directory "/Volumes/Ultan/NBNC_Archive".
+2019-09-06 17:08:41,390 INFO     Job complete.

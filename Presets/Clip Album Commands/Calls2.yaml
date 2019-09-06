@@ -1,0 +1,42 @@
+globals:
+    annotation_name: Classification
+    annotation_scope: Selection
+
+commands:
+
+    ">": [show_next_page]
+    "<": [show_previous_page]
+    ".": [select_next_clip]
+    ",": [select_previous_clip]
+    "/": [play_selected_clip]
+    "~": [toggle_clip_labels]
+
+    "#": [set_local, annotation_scope, Page]
+    "\\": [clear_command_and_locals]
+
+    a: [annotate_clips, Call.AMBI]
+    b: [annotate_clips, Call.BOBO]
+    c: [annotate_clips, Call.COMO]
+    C: [annotate_clips, Call.CONI]
+    d: [annotate_clips, Call.DICK]   
+    g: [annotate_clips, Call.GCTH]
+    G: [annotate_clips, Call.GRHE]
+    h: [annotate_clips, Call.HETH]
+    H: [annotate_clips, Call.GBHE]
+    l: [annotate_clips, Call.LESA]
+    L: [annotate_clips, Call.LEBI]
+    n: [annotate_clips, Noise]
+    O: [annotate_clips, Call.Other]
+    r: [annotate_clips, Call.RBGR]
+    s: [annotate_clips, Call.SWTH]
+    7: [annotate_clips, Call.SCTA]
+    S: [annotate_clips, Call.SORA]
+    t: [annotate_clips, Tone]
+    2: [annotate_clips, Call.SPSA_SOSA]
+    q: [annotate_clips, Call.Unknown]
+    v: [annotate_clips, Call.VEER]
+    V: [annotate_clips, Call.VIRA]
+    w: [annotate_clips, Call.WOTH]
+    x: [annotate_clips, Call.Weak]
+    y: [annotate_clips, Call.YBCU]
+    z: [annotate_clips, Call.Zeep]

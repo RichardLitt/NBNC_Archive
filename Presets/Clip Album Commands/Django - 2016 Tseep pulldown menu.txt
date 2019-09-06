@@ -1,0 +1,5 @@
+extends: Coarse Clip Class
+name: Clip Class
+type: Hierarchical Values
+values:
+- Call: [AMRE, ATSP, BAWW, BTBW, CAWA, CCSP, CEWA, CHSP, CMWA, COYE, CSWA, DoubleUp, FISP, GCKI, GRSP, INBU, MOWA, NOPA, NSTS, NOWA, Other, OVEN, PAWA, PIWA, SAVS, SWSP_LISP, Unknown, WCSP, Weak, WIWA, WTSP, YRWA, Zeep]

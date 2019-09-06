@@ -1,0 +1,21 @@
+2019-09-06 17:09:19,097 INFO     Job started for command "import" with arguments:
+2019-09-06 17:09:19,097 INFO         {
+2019-09-06 17:09:19,097 INFO             "importer": {
+2019-09-06 17:09:19,097 INFO                 "name": "Recording Importer",
+2019-09-06 17:09:19,097 INFO                 "arguments": {
+2019-09-06 17:09:19,097 INFO                     "paths": [
+2019-09-06 17:09:19,097 INFO                         "/Volumes/Ultan/NBNC_Archive"
+2019-09-06 17:09:19,097 INFO                     ],
+2019-09-06 17:09:19,097 INFO                     "recursive": true,
+2019-09-06 17:09:19,097 INFO                     "recording_file_parser": {
+2019-09-06 17:09:19,098 INFO                         "name": "MPG Ranch Recording File Parser",
+2019-09-06 17:09:19,098 INFO                         "arguments": {
+2019-09-06 17:09:19,098 INFO                             "station_name_aliases_preset": "Station Name Aliases"
+2019-09-06 17:09:19,098 INFO                         }
+2019-09-06 17:09:19,098 INFO                     }
+2019-09-06 17:09:19,098 INFO                 }
+2019-09-06 17:09:19,098 INFO             }
+2019-09-06 17:09:19,098 INFO         }
+2019-09-06 17:09:19,502 INFO     Found 0 new recordings and 22 old recordings at the specified paths.
+2019-09-06 17:09:19,502 INFO     No recordings will be imported.
+2019-09-06 17:09:19,506 INFO     Job complete.

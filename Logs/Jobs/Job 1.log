@@ -1,0 +1,175 @@
+2019-09-06 16:48:17,764 INFO     Could not open font file /Library/Fonts/NISC18030.ttf: In FT2Font: Could not set the fontsize
+2019-09-06 16:48:18,003 INFO     Could not open font file /System/Library/Fonts/Apple Color Emoji.ttc: In FT2Font: Could not set the fontsize
+2019-09-06 16:48:18,518 INFO     generated new fontManager
+2019-09-06 16:48:19,395 INFO     Job started for command "import" with arguments:
+2019-09-06 16:48:19,396 INFO         {
+2019-09-06 16:48:19,396 INFO             "importer": {
+2019-09-06 16:48:19,396 INFO                 "name": "Archive Data Importer",
+2019-09-06 16:48:19,396 INFO                 "arguments": {
+2019-09-06 16:48:19,396 INFO                     "archive_data": {
+2019-09-06 16:48:19,396 INFO                         "stations": [
+2019-09-06 16:48:19,396 INFO                             {
+2019-09-06 16:48:19,396 INFO                                 "name": "1",
+2019-09-06 16:48:19,396 INFO                                 "description": "North Branch Nature Center",
+2019-09-06 16:48:19,396 INFO                                 "latitude": 44.284535,
+2019-09-06 16:48:19,396 INFO                                 "longitude": -72.575007,
+2019-09-06 16:48:19,396 INFO                                 "elevation": 177,
+2019-09-06 16:48:19,396 INFO                                 "time_zone": "US/Eastern"
+2019-09-06 16:48:19,396 INFO                             }
+2019-09-06 16:48:19,396 INFO                         ],
+2019-09-06 16:48:19,396 INFO                         "device_models": [
+2019-09-06 16:48:19,396 INFO                             {
+2019-09-06 16:48:19,396 INFO                                 "name": "PC Recorder",
+2019-09-06 16:48:19,396 INFO                                 "type": "Audio Recorder",
+2019-09-06 16:48:19,396 INFO                                 "manufacturer": "Various",
+2019-09-06 16:48:19,396 INFO                                 "model": "PC",
+2019-09-06 16:48:19,396 INFO                                 "description": "Personal computer as an audio recorder.",
+2019-09-06 16:48:19,396 INFO                                 "num_inputs": 2
+2019-09-06 16:48:19,396 INFO                             },
+2019-09-06 16:48:19,396 INFO                             {
+2019-09-06 16:48:19,396 INFO                                 "name": "21c",
+2019-09-06 16:48:19,396 INFO                                 "type": "Microphone",
+2019-09-06 16:48:19,397 INFO                                 "manufacturer": "Old Bird",
+2019-09-06 16:48:19,397 INFO                                 "model": "21c",
+2019-09-06 16:48:19,397 INFO                                 "description": "",
+2019-09-06 16:48:19,397 INFO                                 "num_outputs": 1
+2019-09-06 16:48:19,397 INFO                             }
+2019-09-06 16:48:19,397 INFO                         ],
+2019-09-06 16:48:19,397 INFO                         "devices": [
+2019-09-06 16:48:19,397 INFO                             {
+2019-09-06 16:48:19,397 INFO                                 "name": "PC Recorder 1",
+2019-09-06 16:48:19,397 INFO                                 "model": "PC Recorder",
+2019-09-06 16:48:19,397 INFO                                 "serial_number": 1,
+2019-09-06 16:48:19,397 INFO                                 "description": "Recorder used at station 1."
+2019-09-06 16:48:19,397 INFO                             },
+2019-09-06 16:48:19,397 INFO                             {
+2019-09-06 16:48:19,397 INFO                                 "name": "21c 1",
+2019-09-06 16:48:19,397 INFO                                 "model": "21c",
+2019-09-06 16:48:19,397 INFO                                 "serial_number": 1,
+2019-09-06 16:48:19,397 INFO                                 "description": "Microphone used at station 1."
+2019-09-06 16:48:19,397 INFO                             }
+2019-09-06 16:48:19,397 INFO                         ],
+2019-09-06 16:48:19,397 INFO                         "station_devices": [
+2019-09-06 16:48:19,397 INFO                             {
+2019-09-06 16:48:19,397 INFO                                 "station": "1",
+2019-09-06 16:48:19,397 INFO                                 "start_time": "2019-01-01",
+2019-09-06 16:48:19,397 INFO                                 "end_time": "2024-12-31",
+2019-09-06 16:48:19,397 INFO                                 "devices": [
+2019-09-06 16:48:19,397 INFO                                     "PC Recorder 1",
+2019-09-06 16:48:19,397 INFO                                     "21c 1"
+2019-09-06 16:48:19,397 INFO                                 ],
+2019-09-06 16:48:19,397 INFO                                 "connections": [
+2019-09-06 16:48:19,397 INFO                                     {
+2019-09-06 16:48:19,397 INFO                                         "output": "21c 1 Output",
+2019-09-06 16:48:19,397 INFO                                         "input": "PC Recorder 1 Input 0"
+2019-09-06 16:48:19,397 INFO                                     }
+2019-09-06 16:48:19,397 INFO                                 ]
+2019-09-06 16:48:19,397 INFO                             }
+2019-09-06 16:48:19,397 INFO                         ],
+2019-09-06 16:48:19,397 INFO                         "detectors": [
+2019-09-06 16:48:19,397 INFO                             {
+2019-09-06 16:48:19,398 INFO                                 "name": "Old Bird Tseep Detector",
+2019-09-06 16:48:19,398 INFO                                 "description": "http://oldbird.org/analysis.htm"
+2019-09-06 16:48:19,398 INFO                             },
+2019-09-06 16:48:19,398 INFO                             {
+2019-09-06 16:48:19,398 INFO                                 "name": "Old Bird Thrush Detector",
+2019-09-06 16:48:19,398 INFO                                 "description": "http://oldbird.org/analysis.htm"
+2019-09-06 16:48:19,398 INFO                             }
+2019-09-06 16:48:19,398 INFO                         ],
+2019-09-06 16:48:19,398 INFO                         "classifiers": [],
+2019-09-06 16:48:19,398 INFO                         "annotation_constraints": [
+2019-09-06 16:48:19,398 INFO                             {
+2019-09-06 16:48:19,398 INFO                                 "name": "Coarse Clip Class",
+2019-09-06 16:48:19,398 INFO                                 "description": "Coarse clip classes for nocturnal migration monitoring.",
+2019-09-06 16:48:19,398 INFO                                 "type": "Values",
+2019-09-06 16:48:19,398 INFO                                 "values": [
+2019-09-06 16:48:19,398 INFO                                     "Call",
+2019-09-06 16:48:19,398 INFO                                     "Noise",
+2019-09-06 16:48:19,398 INFO                                     "Tone"
+2019-09-06 16:48:19,398 INFO                                 ]
+2019-09-06 16:48:19,398 INFO                             },
+2019-09-06 16:48:19,398 INFO                             {
+2019-09-06 16:48:19,398 INFO                                 "name": "Clip Class",
+2019-09-06 16:48:19,398 INFO                                 "description": "All clip classes, both coarse and species, for nocturnal migration monitoring.\n",
+2019-09-06 16:48:19,398 INFO                                 "type": "Hierarchical Values",
+2019-09-06 16:48:19,398 INFO                                 "extends": "Coarse Clip Class",
+2019-09-06 16:48:19,398 INFO                                 "values": [
+2019-09-06 16:48:19,398 INFO                                     {
+2019-09-06 16:48:19,398 INFO                                         "Call": [
+2019-09-06 16:48:19,398 INFO                                             "AMRE",
+2019-09-06 16:48:19,398 INFO                                             "ATSP",
+2019-09-06 16:48:19,398 INFO                                             "BAWW",
+2019-09-06 16:48:19,398 INFO                                             "BTBW",
+2019-09-06 16:48:19,398 INFO                                             "CAWA",
+2019-09-06 16:48:19,398 INFO                                             "CCSP",
+2019-09-06 16:48:19,398 INFO                                             "CHSP",
+2019-09-06 16:48:19,398 INFO                                             "CMWA",
+2019-09-06 16:48:19,398 INFO                                             "COYE",
+2019-09-06 16:48:19,398 INFO                                             "CSWA",
+2019-09-06 16:48:19,398 INFO                                             "DoubleUp",
+2019-09-06 16:48:19,398 INFO                                             "FISP",
+2019-09-06 16:48:19,399 INFO                                             "FOSP",
+2019-09-06 16:48:19,399 INFO                                             "GCKI",
+2019-09-06 16:48:19,399 INFO                                             "GHSP",
+2019-09-06 16:48:19,399 INFO                                             "GRSP",
+2019-09-06 16:48:19,399 INFO                                             "HESP",
+2019-09-06 16:48:19,399 INFO                                             "HOWA",
+2019-09-06 16:48:19,399 INFO                                             "INBU",
+2019-09-06 16:48:19,399 INFO                                             "LCSP",
+2019-09-06 16:48:19,399 INFO                                             "LOWA",
+2019-09-06 16:48:19,399 INFO                                             "MOWA",
+2019-09-06 16:48:19,399 INFO                                             "NOPA",
+2019-09-06 16:48:19,399 INFO                                             "NWTH",
+2019-09-06 16:48:19,399 INFO                                             "Other",
+2019-09-06 16:48:19,399 INFO                                             "OVEN",
+2019-09-06 16:48:19,399 INFO                                             "PAWA",
+2019-09-06 16:48:19,399 INFO                                             "PRAW",
+2019-09-06 16:48:19,399 INFO                                             "PROW",
+2019-09-06 16:48:19,399 INFO                                             "SNBU_LALO",
+2019-09-06 16:48:19,399 INFO                                             "SAVS",
+2019-09-06 16:48:19,399 INFO                                             "SOSP",
+2019-09-06 16:48:19,399 INFO                                             "SWSP_LISP",
+2019-09-06 16:48:19,399 INFO                                             "Unknown",
+2019-09-06 16:48:19,399 INFO                                             "VESP",
+2019-09-06 16:48:19,399 INFO                                             "WCSP",
+2019-09-06 16:48:19,399 INFO                                             "Weak",
+2019-09-06 16:48:19,399 INFO                                             "WIWA",
+2019-09-06 16:48:19,399 INFO                                             "WTSP",
+2019-09-06 16:48:19,399 INFO                                             "YRWA",
+2019-09-06 16:48:19,399 INFO                                             "Zeep"
+2019-09-06 16:48:19,399 INFO                                         ]
+2019-09-06 16:48:19,399 INFO                                     }
+2019-09-06 16:48:19,399 INFO                                 ]
+2019-09-06 16:48:19,399 INFO                             }
+2019-09-06 16:48:19,399 INFO                         ],
+2019-09-06 16:48:19,399 INFO                         "annotations": [
+2019-09-06 16:48:19,399 INFO                             {
+2019-09-06 16:48:19,399 INFO                                 "name": "Classification",
+2019-09-06 16:48:19,399 INFO                                 "type": "String",
+2019-09-06 16:48:19,399 INFO                                 "constraint": "Clip Class"
+2019-09-06 16:48:19,399 INFO                             }
+2019-09-06 16:48:19,399 INFO                         ]
+2019-09-06 16:48:19,399 INFO                     }
+2019-09-06 16:48:19,399 INFO                 }
+2019-09-06 16:48:19,399 INFO             }
+2019-09-06 16:48:19,400 INFO         }
+2019-09-06 16:48:19,401 INFO     Adding station "1"...
+2019-09-06 16:48:19,409 INFO     Adding device model "PC Recorder"...
+2019-09-06 16:48:19,411 INFO     Adding device model "PC Recorder" input "Input 0"...
+2019-09-06 16:48:19,412 INFO     Adding device model "PC Recorder" input "Input 1"...
+2019-09-06 16:48:19,413 INFO     Adding device model "21c"...
+2019-09-06 16:48:19,414 INFO     Adding device model "21c" output "Output"...
+2019-09-06 16:48:19,418 INFO     Adding device "PC Recorder 1"...
+2019-09-06 16:48:19,423 INFO     Adding device "PC Recorder 1" input "Input 0"...
+2019-09-06 16:48:19,424 INFO     Adding device "PC Recorder 1" input "Input 1"...
+2019-09-06 16:48:19,425 INFO     Adding device "21c 1"...
+2019-09-06 16:48:19,427 INFO     Adding device "21c 1" output "Output"...
+2019-09-06 16:48:19,446 INFO     Adding station "1" device "PC Recorder 1" from 2019-01-01 05:00:00+00:00 to 2024-12-31 05:00:00+00:00"...
+2019-09-06 16:48:19,450 INFO     Adding station "1" device "21c 1" from 2019-01-01 05:00:00+00:00 to 2024-12-31 05:00:00+00:00"...
+2019-09-06 16:48:19,456 INFO     Adding station "1" device connection "21c 1 Output -> PC Recorder 1 Input 0 from 2019-01-01 05:00:00+00:00 to 2024-12-31 05:00:00+00:00"...
+2019-09-06 16:48:19,460 INFO     Adding detector "Old Bird Tseep Detector"...
+2019-09-06 16:48:19,464 INFO     Adding detector "Old Bird Thrush Detector"...
+2019-09-06 16:48:19,465 INFO     Adding annotation constraint "Coarse Clip Class"...
+2019-09-06 16:48:19,471 INFO     Adding annotation constraint "Clip Class"...
+2019-09-06 16:48:19,476 INFO     Adding annotation "Classification"...
+2019-09-06 16:48:19,572 INFO     Job complete.

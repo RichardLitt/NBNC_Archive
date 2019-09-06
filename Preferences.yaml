@@ -1,0 +1,65 @@
+default_presets:
+    Clip Album Settings: Resizing Clips, Labels Bottom
+    Clip Album Commands: Course
+
+calendar_defaults:
+    station_mic: 1 / 21c 1
+    detector: Old Bird Tseep Detector
+    classification: "*"
+
+navbar:
+
+    - name: View
+      dropdown:
+
+          - name: Clip Calendar
+            url_name: clip-calendar
+
+          - name: Clip Album
+            url_name: clip-album
+
+    - name: Import
+      dropdown:
+
+          - name: Archive Data
+            url_name: import-archive-data
+
+          - name: Recordings
+            url_name: import-recordings
+
+    - name: Detect
+      url_name: detect
+ 
+    - name: Classify
+      url_name: classify
+ 
+    - name: Export
+      dropdown:
+
+          - name: Clip Counts CSV File
+            url_name: export-clip-counts-csv-file
+
+          - name: Clips CSV File
+            url_name: export-clips-csv-file
+
+          - name: Clip Audio Files
+            url_name: export-clip-audio-files
+
+          - name: Clips HDF5 File
+            url_name: export-clips-hdf5-file
+
+    - name: Other
+      dropdown:
+
+          - name: Delete Recordings
+            url_name: delete-recordings
+
+          - name: Delete Clips
+            url_name: delete-clips
+
+          - name: Create Clip Audio Files
+            url_name: create-clip-audio-files
+        
+          - name: Delete Clip Audio Files
+            url_name: delete-clip-audio-files
+
